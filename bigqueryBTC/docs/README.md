@@ -7,27 +7,26 @@ Este projeto implementa um pipeline de ETL (Extract, Transform, Load) para proce
 ## Estrutura do Projeto
 
 📂 bigqueryBTC/
-├── 📂 scripts/ (Scripts Python para ETL e automação)
-│ ├── extract.py (Extrai dados da Yahoo Finance API e salva no GCS)
-│ ├── transform.py (Limpa e transforma os dados)
-│ ├── load.py (Carrega os dados no BigQuery)
-│ ├── etl_pipeline.py (Orquestra o pipeline de ETL)
-│ ├── pubsub.py (Envia notificações via Pub/Sub)
-│ ├── scheduler.py (Configura o Cloud Scheduler)
-│ ├── config.py (Configurações globais do projeto)
-│ └── requirements.txt (Dependências do projeto)
-├── 📂 sql/ (Scripts SQL para criação das tabelas no BigQuery)
-│ ├── create_raw.sql (Cria a tabela RAW)
-│ ├── create_trusted.sql (Cria a tabela TRUSTED)
-│ ├── create_refined.sql (Cria a tabela REFINED)
-├── 📂 docs/ (Documentação do projeto)
-│ ├── README.md (Este arquivo)
-│ ├── setup.md (Passos para configuração no GCP)
-│ ├── architecture.md (Arquitetura do pipeline)
-├── 📂 credentials/ (Pasta para armazenar credenciais)
-│ └── credenciais.json (Chave de serviço do GCP)
-├── .gitignore (Ignora arquivos sensíveis)
-
+├── 📂 scripts/ # Scripts Python para ETL e automação
+│ ├── extract.py # Extrai dados da Yahoo Finance API e salva no GCS
+│ ├── transform.py # Limpa e transforma os dados
+│ ├── load.py # Carrega os dados no BigQuery
+│ ├── etl_pipeline.py # Orquestra o pipeline de ETL
+│ ├── pubsub.py # Envia notificações via Pub/Sub
+│ ├── scheduler.py # Configura o Cloud Scheduler
+│ ├── config.py # Configurações globais do projeto
+│ └── requirements.txt # Dependências do projeto
+├── 📂 sql/ # Scripts SQL para criação das tabelas no BigQuery
+│ ├── create_raw.sql # Cria a tabela RAW
+│ ├── create_trusted.sql # Cria a tabela TRUSTED
+│ ├── create_refined.sql # Cria a tabela REFINED
+├── 📂 docs/ # Documentação do projeto
+│ ├── README.md # Este arquivo
+│ ├── setup.md # Passos para configuração no GCP
+│ ├── architecture.md # Arquitetura do pipeline
+├── 📂 credentials/ # Pasta para armazenar credenciais
+│ └── credenciais.json # Chave de serviço do GCP
+└── .gitignore # Ignora arquivos sensíveis
 
 ---
 

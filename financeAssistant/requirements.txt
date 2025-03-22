@@ -1,0 +1,10 @@
+yfinance
+pandas
+numpy
+matplotlib
+plotly
+ta-lib
+cryptography
+fpdf
+requests
+alpha_vantage
